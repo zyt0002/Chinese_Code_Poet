@@ -1,0 +1,37 @@
+# 深度学习框架
+torch>=2.0.0
+torchvision
+torchaudio
+
+# Transformers生态系统
+transformers>=4.36.0
+datasets>=2.14.0
+tokenizers>=0.15.0
+
+# 参数高效微调
+peft>=0.7.0
+trl>=0.7.0
+
+# 量化和优化
+bitsandbytes>=0.41.0
+accelerate>=0.24.0
+
+# 数据处理
+numpy>=1.24.0
+pandas>=2.0.0
+
+# 日志和可视化
+tensorboard>=2.14.0
+wandb  # 可选：更强大的实验跟踪
+
+# 工具库
+tqdm>=4.65.0
+packaging>=21.0
+psutil>=5.9.0
+
+# JSON处理（通常已内置，但明确列出）
+jsonlines>=3.1.0
+
+# 可选：Jupyter支持（如果需要在notebook中运行）
+jupyter>=1.0.0
+ipywidgets>=8.0.0

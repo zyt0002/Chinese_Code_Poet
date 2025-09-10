@@ -1,0 +1,18 @@
+# 最小化依赖 - 仅包含训练必需的库
+
+# 核心框架
+torch>=2.0.0
+transformers>=4.36.0
+datasets>=2.14.0
+
+# 微调相关
+peft>=0.7.0
+trl>=0.7.0
+
+# 量化支持
+bitsandbytes>=0.41.0
+accelerate>=0.24.0
+
+# 基础工具
+numpy
+tensorboard
